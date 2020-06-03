@@ -1,0 +1,61 @@
+{
+  "openapi" : "3.0.1",
+  "info" : {
+    "title" : "defaultTitle",
+    "description" : "defaultDescription",
+    "version" : "0.1"
+  },
+  "servers" : [ {
+    "url" : "https://test3.vinfiniti.biz:8210"
+  } ],
+  "paths" : {
+    "/Vin3RService/rest/commonEdi/addOrUpdateEdiData/MELS/TBLEDI_MELS_TALLY_SHEET" : {
+      "post" : {
+        "description" : "Auto generated using Swagger Inspector",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "type" : "object",
+                "properties" : { }
+              },
+              "examples" : {
+                "0" : {
+                  "value" : "   [\n    {\n      \"SHR_PALLETIZE_WSL_CHECKBOX\": null,\n      \"SHR_VERIFIED_BY_CS\": null,\n      \"VIN_SHIPMENTMETHOD\": null,\n      \"SHR_LOOSE_WSL_CHECKBOX\": null,\n      \"SHR_LASHING_COVER\": null,\n      \"SHR_TIMBER_8FT\": null,\n      \"SHR_CARDBOARD_PEFOAM_QTY\": null,\n      \"VME_LABELS_TOTAL_QTY\": null,\n      \"SHR_TYPE3_CHECKBOX\": null,\n      \"SHR_PALLETIZE_CHECKBOX\": null,\n      \"SHR_MEMO\": null,\n      \"SHR_CARDBOARD_AIRBAG_CHECKBOX\": null,\n      \"VME_SA_350_CHECKBOX\": null,\n      \"SHR_SUPPLY_PALLET\": null,\n      \"CONTAINER_NO\": null,\n      \"VIN_REFB_AWB\": \"11\",\n      \"VME_SHANGHAI_CHECKBOX\": null,\n      \"VME_ZHUHAI_A5PAPER_CHECKBOX\": null,\n      \"VME_B113838_CHECKBOX\": null,\n      \"VME_SHANGHAI_A5PAPER\": null,\n      \"SHR_RE_PALLETIZATION\": null,\n      \"SHR_CARDBOARD_PEFOAM_CHECKBOX\": null,\n      \"VME_LOA_386\": null,\n      \"VME_SOIL_CHECKBOX\": null,\n      \"GIN\": null,\n      \"SHR_LOOSE_CHECKBOX\": null,\n      \"VME_GS_CALTEX_CHECKBOX\": null,\n      \"VME_ZHUHAI_A5PAPER\": null,\n      \"SHR_OTHERS_MEMO\": null,\n      \"SHR_CARDBOARD_AIRBAG_QTY\": null,\n      \"VIN_REFC\": \"1\",\n      \"GRN_CHECKBOX\": null,\n      \"VME_SHANGHAI_A5PAPER_CHECKBOX\": null,\n      \"VME_B113838\": null,\n      \"SHR_TIMBER_220CM\": null,\n      \"VIN_REFM_PROGRAMTYPE\": \"VME\",\n      \"VIN_DELIVERYMETHOD\": \"LOCAL\",\n      \"VIN_PLANNEDDELIVERYDATE_ETD\": \"2020-04-14T10:47:24\",\n      \"SHR_CARDBOARD_TYGUARD_QTY\": null,\n      \"SHR_RFC_PLTS_CHECKBOX\": null,\n      \"VIN_REFG_POD\": \"Singapore\",\n      \"TALLY_SHEET_K2_STATUS\": null,\n      \"GRN\": null,\n      \"VIN_REFA_VESSEL\": \"11\",\n      \"SHR_TYPE1_CHECKBOX\": null,\n      \"SHR_CARDBOARD_1PLY_CHECKBOX\": null,\n      \"VIN_SOL_LINESTATUS\": 1,\n      \"ETA_CHECKBOX\": null,\n      \"SHR_SHIPPING_MARKS\": null,\n      \"VME_SA_350\": null,\n      \"SHR_CARDBOARD_6PLY_CHECKBOX\": null,\n      \"SIZE_TYPE\": null,\n      \"SHR_CARDBOARD_TYGUARD_CHECKBOX\": null,\n      \"SHR_SUPPLY_LABELS\": null,\n      \"VIN_PLANNEDRECEIVEDDATE_ETA\": \"2020-04-14T10:47:24\",\n      \"WEATHER_CONDITION\": null,\n      \"VME_ZHUHAI_TRADING_CHECKBOX\": null,\n      \"VME_SHIPPING_KR_CH\": null,\n      \"TARE_GROSS_WEIGHT\": null,\n      \"SHR_CHECKED_BY_TALLY\": null,\n      \"SHR_CARDBOARD_3PLY_QTY\": null,\n      \"SEAL_NO\": null,\n      \"ETD_CHECKBOX\": null,\n      \"SHR_REQUIRED_MEMO\": null,\n      \"SHR_CARDBOARD_2PLY_CHECKBOX\": null,\n      \"VIN_REFC_VOY\": \"1\",\n      \"SHR_CARDBOARD_3PLY_CHECKBOX\": null,\n      \"SHR_CARDBOARD_1PLY_QTY\": null,\n      \"SHR_CARDBOARD_2PLY_QTY\": null,\n      \"SHR_RED_MARKING\": null,\n      \"SHR_SLIPPED_SHEETS\": null,\n      \"SHR_POCKET\": null,\n      \"SHR_BREAK_PALLET\": null,\n      \"VME_LUBRIZOL_CHECKBOX\": null,\n      \"SHR_SHRINK_WRAPPED\": null,\n      \"SHR_SAFETY_SHEET\": null,\n      \"SHR_STRAPPING\": null,\n      \"SHR_1PLY\": null,\n      \"SHR_TOTAL_QTY\": null,\n      \"VME_LUBRIZOL_A5PAPER_CHECKBOX\": null,\n      \"CUSTCONTAINER\": \"Cargo-T1-1\",\n      \"VME_SK_LUBRICANT_CHECKBOX\": null,\n      \"GIN_CHECKBOX\": null,\n      \"VIN_CUSTSYSNO\": \"Cargo-T1\",\n      \"VME_LOA_386_CHECKBOX\": null,\n      \"BAY_NO\": \"Testing IO\",\n      \"SHR_TYPE2_CHECKBOX\": \"Test IO\",\n      \"VME_LUBRIZOL_A5PAPER\": null,\n      \"SHIPMENT_TYPE\": \"Testing IO\"\n    }\n    ]"
+                }
+              }
+            }
+          }
+        },
+        "responses" : {
+          "200" : {
+            "description" : "Auto generated using Swagger Inspector",
+            "content" : {
+              "application/json; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : { }
+              }
+            }
+          }
+        },
+        "servers" : [ {
+          "url" : "https://test3.vinfiniti.biz:8210"
+        } ]
+      },
+      "servers" : [ {
+        "url" : "https://test3.vinfiniti.biz:8210"
+      } ]
+    }
+  },
+  "components" : {
+    "schemas" : { },
+    "securitySchemes" : {
+      "basic" : {
+        "type" : "http",
+        "scheme" : "basic"
+      }
+    }
+  }
+}
