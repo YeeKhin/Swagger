@@ -21,7 +21,10 @@
             "in": "body",
             "name": "body",
             "schema": {
-              "$ref": "#/definitions/CustomerDetailsWrapper"
+		"type": "array",
+		 "items":{  
+              "$ref": "#/definitions/CustomerDetails"
+		 }
             }
           }
         ],
@@ -37,12 +40,12 @@
     }
   },
   "definitions" : {
-	  "CustomerDetailsWrapper": {
+	"CustomerDetailsWrapper": {
 	"type": "array",
 		"items":{
 			"$ref": "#/definitions/CustomerDetails"
 		}		  
-  },
+  	},
     "CustomerDetails": {
 	"type": "object",
 	"properties": {
