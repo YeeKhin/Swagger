@@ -5,13 +5,13 @@
     "description" : "defaultDescription",
     "version" : "0.1"
   },
-   "host":"k2playground.azurewebsites.net",
-   "basePath":"https://test3.vinfiniti.biz:8210",
+   "host":"test3.vinfiniti.biz:8210",
+   "basePath":"/Vin3RService/rest/commonEdi",
    "schemes":[  
       "https"
    ],
    "paths" : {
-    "/Vin3RService/rest/commonEdi/addOrUpdateEdiData/MELS/TBLEDI_MELS_TALLY_SHEET" : {
+    "/addOrUpdateEdiData/MELS/TBLEDI_MELS_TALLY_SHEET" : {
       "post" : {
         "tags": [
           "CognitiveServices"
