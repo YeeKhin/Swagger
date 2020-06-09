@@ -21,7 +21,7 @@
             "in": "body",
             "name": "body",
             "schema": {
-              "$ref": "#/definitions/CustomerDetails"
+              "$ref": "#/definitions/CustomerDetailsWrapper"
             }
           }
         ],
@@ -37,6 +37,12 @@
     }
   },
   "definitions" : {
+	  "CustomerDetailsWrapper": {
+	"type": "array",
+		"items":{
+			"$ref": "#/definitions/CustomerDetails"
+		}		  
+  },
     "CustomerDetails": {
 	"type": "object",
 	"properties": {
