@@ -23,7 +23,7 @@
             "schema": {
 		"type": "array",
 		 "items":{  
-              "$ref": "#/definitions/CustomerDetails"
+              	 	"$ref": "#/definitions/CustomerDetails"
 		 }
             }
           }
@@ -46,7 +46,7 @@
 			"$ref": "#/definitions/CustomerDetails"
 		}		  
   	},
-    "CustomerDetails": {
+    	"CustomerDetails": {
 	"type": "object",
 	"properties": {
 	  "BAY_NO": {
