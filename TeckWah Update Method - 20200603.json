@@ -39,13 +39,7 @@
       }      
     }
   },
-  "definitions" : {
-	"CustomerDetailsWrapper": {
-	"type": "array",
-		"items":{
-			"$ref": "#/definitions/CustomerDetails"
-		}		  
-  	},
+  "definitions" : {	
     	"CustomerDetails": {
 	"type": "object",
 	"properties": {
