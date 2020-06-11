@@ -20,12 +20,9 @@
           {
             "in": "body",
             "name": "body",
-            "schema": {
-		"type": "array",
-		 "items":{  
+            "schema": {		  
               	 	"$ref": "#/definitions/CustomerDetails"
 		 }
-            }
           }
         ],
         "responses": {
